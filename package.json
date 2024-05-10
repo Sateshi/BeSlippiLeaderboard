@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "prettier": "prettier 'src/**/**/*.?(js|jsx)' --write",
-    "start": "webpack serve",
+    "start": "  webpack serve",
     "build": "cross-env NODE_ENV=production webpack --progress",
     "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint src --ext .ts --ext .tsx"
