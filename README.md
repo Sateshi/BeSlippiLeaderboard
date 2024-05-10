@@ -1,6 +1,6 @@
 # Colorado Ranked Slippi Leaderboard
 
-Code powering https://grantismo.github.io/CoSlippiLeaderboard/#/
+Code powering https://sateshi.github.io/BeSlippiLeaderboard/
 
 ## Technologies
 
