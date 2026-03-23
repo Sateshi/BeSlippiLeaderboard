@@ -12,7 +12,5 @@ dist
 *.swp
 secrets/*
 cron/data/*
-!cron/data/players-old.json
 !cron/data/players-new.json
-!cron/data/timestamp.json
 cron/logs/*
