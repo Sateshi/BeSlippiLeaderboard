@@ -11,6 +11,4 @@ dist
 .DS_Store
 *.swp
 secrets/*
-cron/data/*
-!cron/data/players-new.json
-cron/logs/*
+cron/
