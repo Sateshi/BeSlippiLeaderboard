@@ -7,8 +7,8 @@
   "scripts": {
     "prettier": "prettier 'src/**/**/*.?(js|jsx)' --write",
     "start": "  webpack serve",
-    "build": "cross-env NODE_ENV=production webpack --progress",
-    "deploy": "npm run build && gh-pages -d dist",
+    "build": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=production node node_modules/webpack/bin/webpack.js --progress",
+    "deploy": "npm run build && node node_modules/gh-pages/bin/gh-pages.js -d dist",
     "lint": "eslint src --ext .ts --ext .tsx"
   },
   "repository": {
